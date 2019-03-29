@@ -1,0 +1,12 @@
+
+#example from https://github.com/reportportal/agent-ruby/blob/master/config/report_portal.yaml.example
+
+uuid: 8715cd0b-0cdb-496d-a74c-2cbdc3f1d681
+endpoint: http://localhost:8080/api/v1
+project: cucumberz
+launch: superadmin_TEST_EXAMPLE
+
+# tags: [] #[tag1, tag2]
+#formatter_modes: [group_by_folder]
+#is_debug: true
+#disable_ssl_verification: true
