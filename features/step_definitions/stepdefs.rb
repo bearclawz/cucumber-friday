@@ -1,7 +1,11 @@
+
+
 module FridayStepHelper
   def is_it_friday(day)
     if day == 'Friday'
       'TGIF'
+    elsif day == 'Thursday'
+      "It's small Friday!"
     else
       'Nope'
     end
