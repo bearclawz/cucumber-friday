@@ -3,11 +3,11 @@
 module FridayStepHelper
   def is_it_friday(day)
     if day == 'Friday'
-      'TGIF'
+      'Wahooo!'
     elsif day == 'Thursday'
       "It's small Friday!"
     else
-      'Nope'
+      'Nope!'
     end
   end
 end
@@ -22,6 +22,6 @@ When("I ask whether it's Friday yet") do
   @actual_answer = is_it_friday(@today)
 end
 
-Then("I should be told {string}") do |expected_answer|
+Then("I will be told {string}") do |expected_answer|
   expect(@actual_answer).to eq(expected_answer)
 end
