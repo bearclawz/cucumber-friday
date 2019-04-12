@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60000
+              "duration": 53000
             }
           },
           {
@@ -52,7 +52,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000
+              "duration": 12000
             }
           },
           {
@@ -64,7 +64,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1004000
+              "duration": 983000
             }
           }
         ]
@@ -96,7 +96,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22000
+              "duration": 23000
             }
           },
           {
@@ -108,7 +108,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29000
+              "duration": 15000
             }
           },
           {
@@ -120,7 +120,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41000
+              "duration": 47000
             }
           }
         ]
@@ -152,7 +152,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17000
+              "duration": 41000
             }
           },
           {
@@ -164,7 +164,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9000
+              "duration": 13000
             }
           },
           {
@@ -176,7 +176,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19000
+              "duration": 35000
             }
           }
         ]
@@ -208,7 +208,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17000
+              "duration": 24000
             }
           },
           {
@@ -220,7 +220,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9000
+              "duration": 10000
             }
           },
           {
@@ -232,7 +232,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19000
+              "duration": 27000
             }
           }
         ]
@@ -264,7 +264,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16000
+              "duration": 34000
             }
           },
           {
@@ -276,7 +276,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8000
+              "duration": 25000
             }
           },
           {
@@ -288,7 +288,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19000
+              "duration": 42000
             }
           }
         ]
@@ -320,7 +320,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16000
+              "duration": 21000
             }
           },
           {
@@ -332,7 +332,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8000
+              "duration": 12000
             }
           },
           {
@@ -345,7 +345,7 @@
             "result": {
               "status": "failed",
               "error_message": "\nexpected: \"Not yet - Product Bug\"\n     got: \"Wahooo!\"\n\n(compared using ==)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/stepdefs.rb:26:in `\"I will be told {string}\"'\nfeatures/is_it_friday_yet.feature:24:in `Then I will be told \"Not yet - Product Bug\"'\nfeatures/is_it_friday_yet.feature:9:in `Then I will be told \"<answer>\"'",
-              "duration": 17365000
+              "duration": 21650000
             }
           }
         ]
@@ -377,7 +377,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30000
+              "duration": 31000
             }
           },
           {
@@ -389,7 +389,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11000
+              "duration": 12000
             }
           },
           {
@@ -402,7 +402,7 @@
             "result": {
               "status": "failed",
               "error_message": "\nexpected: \"You wish! - Intended Bug\"\n     got: \"Nope!\"\n\n(compared using ==)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/stepdefs.rb:26:in `\"I will be told {string}\"'\nfeatures/is_it_friday_yet.feature:25:in `Then I will be told \"You wish! - Intended Bug\"'\nfeatures/is_it_friday_yet.feature:9:in `Then I will be told \"<answer>\"'",
-              "duration": 144000
+              "duration": 198000
             }
           }
         ]
@@ -434,7 +434,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18000
+              "duration": 31000
             }
           },
           {
@@ -446,7 +446,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14000
+              "duration": 12000
             }
           },
           {
@@ -459,7 +459,7 @@
             "result": {
               "status": "failed",
               "error_message": "\nexpected: \"Its small Friday - Automation Bug\"\n     got: \"It's small Friday!\"\n\n(compared using ==)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/stepdefs.rb:26:in `\"I will be told {string}\"'\nfeatures/is_it_friday_yet.feature:26:in `Then I will be told \"Its small Friday - Automation Bug\"'\nfeatures/is_it_friday_yet.feature:9:in `Then I will be told \"<answer>\"'",
-              "duration": 135000
+              "duration": 164000
             }
           }
         ]
