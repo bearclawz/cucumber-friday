@@ -7,5 +7,5 @@ gem install bundler:2.0.1
 bundle install
 
 #run cucumber
-rake cucumber
+cucumber
 
