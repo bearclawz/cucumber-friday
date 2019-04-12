@@ -4,4 +4,5 @@ require 'cucumber/rake/task'
 #   t.cucumber_opts = '*.feature'
 # end
 
+# below runs from cli with $rake cucumber
 Cucumber::Rake::Task.new
