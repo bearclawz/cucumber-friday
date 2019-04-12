@@ -6,6 +6,12 @@ endpoint: http://localhost:8080/api/v1
 project: cucumberz
 launch: superadmin_TEST_EXAMPLE
 
+#uuid: 3ea35a03-3eec-4280-94b1-8a88761866f5
+#endpoint: http://localhost:8080/api/v1
+#project: cucumberz
+#launch: superadmin_TEST_EXAMPLE
+#tags: [tag1, tag2]
+
 # tags: [] #[tag1, tag2]
 #formatter_modes: [group_by_folder]
 #is_debug: true
