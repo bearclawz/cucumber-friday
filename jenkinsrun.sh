@@ -6,6 +6,8 @@ gem install bundler:2.0.1
 #install gems
 bundle install
 
+sleep 2
+
 #run cucumber
-cucumber
+rake cucumber
 
