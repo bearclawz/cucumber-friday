@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03874cd5-8dc4-449b-9c02-818af45b4ec5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsrun.sh" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsrun.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
             <state relative-caret-position="255">
               <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding>
-                <marker date="1554462357390" expanded="true" signature="240:375" ph="..." />
+                <marker date="1555083436495" expanded="true" signature="240:375" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jenkinsrun.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -127,7 +128,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1629" />
+    <option name="x" value="-1610" />
     <option name="y" value="23" />
     <option name="width" value="1281" />
     <option name="height" value="788" />
@@ -167,7 +168,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -241,7 +242,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553266114065</updated>
       <workItem from="1553266115178" duration="6864000" />
-      <workItem from="1554461708850" duration="6425000" />
+      <workItem from="1554461708850" duration="6948000" />
     </task>
     <servers />
   </component>
@@ -254,11 +255,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16465000" />
+    <option name="totallyTimeSpent" value="16988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1629" y="23" width="1281" height="788" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1610" y="23" width="1281" height="788" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27280065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -374,7 +374,7 @@
         <state relative-caret-position="255">
           <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
-            <marker date="1554462357390" expanded="true" signature="240:375" ph="..." />
+            <marker date="1555083436495" expanded="true" signature="240:375" ph="..." />
           </folding>
         </state>
       </provider>
@@ -414,8 +414,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jenkinsrun.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
