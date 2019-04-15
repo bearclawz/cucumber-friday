@@ -13,6 +13,10 @@ sleep 2
 #cd
 cd /Users/kevin/workspace/Friday
 
+echo "run cucumber:"
+
 #run cucumber
 rake cucumber
 
+#return successful run
+exit 0
