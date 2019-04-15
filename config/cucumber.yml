@@ -4,5 +4,7 @@
 #dry: --dry-run
 
 #default: -f pretty -f json -o report.json
-default: --tags "@runpass" -f pretty -f json -o report.json
-#default: --format ReportPortal::Cucumber::Formatter
+
+#default: --tags "@runpass" -f pretty -f json -o report.json
+
+default: --format ReportPortal::Cucumber::Formatter
