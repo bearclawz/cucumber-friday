@@ -18,7 +18,7 @@ pipeline {
                                         steps {
                                                         echo 'run cucumber'
                                                         echo "variable CUCTAG = "
-                                                        echo ${CUCTAG} 
+                                                        echo "${CUCTAG}" 
                                                         // below try statement ensures jenkins job passes even when cuc tests fail
                                                         script {
                                                         sleep 2
