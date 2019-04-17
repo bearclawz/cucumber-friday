@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03874cd5-8dc4-449b-9c02-818af45b4ec5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/cucumber.yml" afterDir="false" />
-    </list>
+    <list default="true" id="03874cd5-8dc4-449b-9c02-818af45b4ec5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +81,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="27" />
-    <option name="y" value="39" />
+    <option name="y" value="38" />
     <option name="width" value="1478" />
     <option name="height" value="931" />
   </component>
@@ -204,7 +200,7 @@
       <workItem from="1555330229267" duration="2033000" />
       <workItem from="1555407247442" duration="40000" />
       <workItem from="1555408201385" duration="402000" />
-      <workItem from="1555425847297" duration="1779000" />
+      <workItem from="1555425847297" duration="1975000" />
     </task>
     <servers />
   </component>
@@ -217,7 +213,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27156000" />
+    <option name="totallyTimeSpent" value="27352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="39" width="1478" height="931" extended-state="0" />
