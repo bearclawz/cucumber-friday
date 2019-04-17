@@ -12,12 +12,10 @@ pipeline {
                                               }
 
                                     }
-    }
-}  
 
-//                 stage ('run cucumber on Docker')
+                 stage ('run cucumber on Docker')
 //                                     {
-//                                         agent { docker { image 'docker_ruby_v2' } }
+//                                         agent { docker { image 'kevinek/docker_ruby_rp:v1' } }
 //                                                         steps {
 //                                                         echo 'run cucumber'
 //                                                         try {
@@ -46,5 +44,5 @@ pipeline {
 //                                     }
 
 
-//             }
-// }
+             }
+}
