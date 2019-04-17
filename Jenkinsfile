@@ -17,6 +17,7 @@ pipeline {
                                         agent { docker { image 'kevinek/docker_ruby_rp:v1' } }
                                         steps {
                                                         echo 'run cucumber'
+                                                        // below try statement ensures jenkins job passes even when cuc tests fail
                                                         script {
                                                         sleep 2
                                                         try {
