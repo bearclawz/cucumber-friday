@@ -26,7 +26,7 @@ pipeline {
                                                         // ###############################
                                                         // ### HERE PUT cucumber tests ###
                                                         // ###############################
-                                                            sh 'cucumber --format ReportPortal::Cucumber::Formatter --tags "@runpass"'
+                                                            sh 'cucumber --format ReportPortal::Cucumber::Formatter --tags' + " ${CUCTAG}"   //"@runpass"'
                                                             //sh 'cucumber'
                                                             //sh 'cucumber desiredCapabilities=\'{\"applicationName\": \"iPhone7\"}\' --tags "@test_search_bar" | tee /tmp/cucumber_log.txt'
                                                             }
