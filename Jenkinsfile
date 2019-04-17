@@ -12,37 +12,29 @@ pipeline {
                                               }
 
                                     }
+                 stage ('Build')
+                                    {
+                                        agent { docker { image 'kevinek/docker_ruby_rp:v1' } }
+                                                        steps {
+                                                        echo 'run cucumber'
+                                                        try {
+                                                        // ###############################
+                                                        // ### HERE PUT cucumber tests ###
+                                                        // ###############################
 
-                 stage ('run cucumber on Docker')
-//                                     {
-//                                         agent { docker { image 'kevinek/docker_ruby_rp:v1' } }
-//                                                         steps {
-//                                                         echo 'run cucumber'
-//                                                         try {
-//                                                         // ###############################
-//                                                         // ### HERE PUT cucumber tests ###
-//                                                         // ###############################
-
-//                                                             sh 'cucumber'
-//                                                             //sh 'cucumber desiredCapabilities=\'{\"applicationName\": \"iPhone7\"}\' --tags "@test_search_bar" | tee /tmp/cucumber_log.txt'
-
-
-//                                                             }
-//                                                         catch (exc) {
-//                                                                     cucumber '**/*.json'
-//                                                                     }
-                                        
-//                                                                 }
-
-                                                                
-//                                                                 // post {
-//                                                                 //         always {
-//                                                                 //                 // generate cucumber reports
-//                                                                 //                 cucumber fileIncludePattern: '**/*.json', sortingMethod: 'ALPHABETICAL'
-//                                                                 //                 }
-//                                                                 // }
-//                                     }
-
-
-             }
+                                                            sh 'cucumber'
+                                                            //sh 'cucumber desiredCapabilities=\'{\"applicationName\": \"iPhone7\"}\' --tags "@test_search_bar" | tee /tmp/cucumber_log.txt'
+                                                            }
+                                                        catch (exc) {
+                                                                    cucumber '**/*.json'
+                                                                    }                                        
+                                                            }                                                                                               
+                                                                // post {
+                                                                //           always {
+                                                                //                   // generate cucumber reports
+                                                                //                   cucumber fileIncludePattern: '**/*.json', sortingMethod: 'ALPHABETICAL'
+                                                                //                  }
+                                                                // }
+                                    }
+    }
 }
