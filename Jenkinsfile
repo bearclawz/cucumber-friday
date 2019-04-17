@@ -30,12 +30,12 @@ pipeline {
                                                         //             }
                                         }                                                                                
                                                                                                                                                            
-                                                                // post {
-                                                                //           always {
-                                                                //                   // generate cucumber reports
-                                                                //                   cucumber fileIncludePattern: '**/*.json', sortingMethod: 'ALPHABETICAL'
-                                                                //                  }
-                                                                // }
+                                                                post {
+                                                                          always {
+                                                                                  // generate cucumber reports
+                                                                                  cucumber fileIncludePattern: '**/*.json', sortingMethod: 'ALPHABETICAL'
+                                                                                 }
+                                                                }
                                     }
     }
 }
