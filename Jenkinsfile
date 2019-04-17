@@ -18,16 +18,16 @@ pipeline {
                                         steps {
                                                         echo 'run cucumber'
                                                         sleep 2
-                                                        try {
+                                                        // try {
                                                         // ###############################
                                                         // ### HERE PUT cucumber tests ###
                                                         // ###############################
                                                             sh 'cucumber'
                                                             //sh 'cucumber desiredCapabilities=\'{\"applicationName\": \"iPhone7\"}\' --tags "@test_search_bar" | tee /tmp/cucumber_log.txt'
-                                                            }
-                                                        catch (exc) {
-                                                                    cucumber '**/*.json'
-                                                                    }
+                                                            // }
+                                                        // catch (exc) {
+                                                        //             cucumber '**/*.json'
+                                                        //             }
                                         }                                                                                
                                                                                                                                                            
                                                                 post {
