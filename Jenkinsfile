@@ -17,6 +17,8 @@ pipeline {
                                         agent { docker { image 'kevinek/docker_ruby_rp:v1' } }
                                         steps {
                                                         echo 'run cucumber'
+                                                        echo "variable CUCTAG = "
+                                                        echo $CUCTAG 
                                                         // below try statement ensures jenkins job passes even when cuc tests fail
                                                         script {
                                                         sleep 2
@@ -24,7 +26,8 @@ pipeline {
                                                         // ###############################
                                                         // ### HERE PUT cucumber tests ###
                                                         // ###############################
-                                                            sh 'cucumber'
+                                                            sh 'cucumber --format ReportPortal::Cucumber::Formatter --tags "@runpass"'
+                                                            //sh 'cucumber'
                                                             //sh 'cucumber desiredCapabilities=\'{\"applicationName\": \"iPhone7\"}\' --tags "@test_search_bar" | tee /tmp/cucumber_log.txt'
                                                             }
                                                         catch (exc) {
