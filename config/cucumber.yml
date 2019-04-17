@@ -8,4 +8,4 @@
 #default: --tags "@runpass" -f pretty -f json -o report.json
 
 #default: --format ReportPortal::Cucumber::Formatter
-default: --format ReportPortal::Cucumber::Formatter --tags $CUCTAG
+default: --format ReportPortal::Cucumber::Formatter --tags '@runall' #$CUCTAG
