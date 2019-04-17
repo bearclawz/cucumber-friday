@@ -15,6 +15,7 @@ pipeline {
                  stage ('Build')
                                     {
                                         agent { docker { image 'kevinek/docker_ruby_rp:v1' } }
+                                        steps {
                                                         echo 'run cucumber'
                                                         sleep 2
                                                         try {
@@ -26,7 +27,8 @@ pipeline {
                                                             }
                                                         catch (exc) {
                                                                     cucumber '**/*.json'
-                                                                    }                                        
+                                                                    }
+                                        }                                                                                
                                                                                                                                                            
                                                                 // post {
                                                                 //           always {
