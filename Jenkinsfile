@@ -2,7 +2,7 @@ pipeline {
     agent none
         environment {
                         ISITFRIDAY = 'false'
-                        RPTAG = "empty"
+                        'rp.tags' = "empty"
                     }
     stages {
                 stage ('Git fetch')
@@ -20,7 +20,7 @@ pipeline {
                                                         echo 'run cucumber'
                                                         echo "variable CUCTAG = "
                                                         echo "${CUCTAG}"
-                                                        echo "${RPTAG}"
+                                                        echo "${rp.tags}"
 
                                                         // below try statement ensures jenkins job passes even when cuc tests fail
                                                         script {
