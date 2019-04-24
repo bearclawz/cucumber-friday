@@ -14,6 +14,7 @@ uuid: 5a0feae1-404a-4e37-a8fe-eae451f398a9
 endpoint: http://192.168.234.70:8081/api/v1
 project: berclouw_personal
 launch: Friday
+#tags: [tag1, tag2]
 
 
 #below ruby logger (others available) see http://reportportal.io/docs/Log-Data-in
