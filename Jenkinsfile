@@ -21,7 +21,7 @@ pipeline {
                                                         echo "variable CUCTAG = "
                                                         echo "${CUCTAG}"
                                                         echo "${RPTAG}"
-                                                        echo `pwd`
+                                                        echo "$PWD"
 
                                                         // below try statement ensures jenkins job passes even when cuc tests fail
                                                         script {
